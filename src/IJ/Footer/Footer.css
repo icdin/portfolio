@@ -1,0 +1,32 @@
+.footer{
+    background-color: rgb(255, 255, 255);
+    margin-top: 20px;
+     width: 100%;
+}
+.widgets{
+    display: flex !important;
+    width: 100%;
+    list-style: none;
+}
+.footer-one{
+    width: 33%;
+    text-align: center;
+    margin: 2px;
+    height: 110px;
+
+}
+
+.footer-two{
+    width: 33%;
+    text-align: center;
+    margin: 2px;
+    height: 110px;
+    
+}
+.footer-three{
+    width: 33%;
+    text-align: center;
+    margin: 2px;
+    height: 110px;
+    
+}

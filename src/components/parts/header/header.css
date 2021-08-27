@@ -1,0 +1,191 @@
+/*For PCs*/
+@media only screen and (min-width: 600px) {
+    .header{
+        width: 100%;
+        top: 0;
+        background-color: transparent;
+    }
+    .brand-logo{
+        margin-left: 20px;
+        float: left;
+        font-size: medium;
+    }
+    .logo{
+        height: 70px;
+        width: 90px;
+        border-radius: 4px;
+    }
+    .brand-name{
+        margin: auto;
+        padding: 20px;
+        font-size: medium;
+        font-family: Verdana, Tahoma, sans-serif;
+        border-bottom-right-radius: 7px;
+        border-bottom-left-radius: 7px;
+        background-color: rgb(110, 109, 92);width: 300px;
+        color: rgb(255, 255, 255);
+    }
+    .intro{
+        color: white;
+    }
+    .navbar{
+        float: right;
+        margin-right: 50px;
+        display: inline-flex;
+    }
+    .navlink-one{
+        text-decoration: none !important;
+        color: rgb(207, 209, 109) !important;
+    background-color: rgb(59, 59, 68);
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        border-radius: 3px;
+        font-size: medium !important;
+        margin: 10px;
+    }
+    .navlink-two{
+        text-decoration: none !important;
+        color: rgb(207, 209, 109) !important;
+        background-color: rgb(59, 59, 68);
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        border-radius: 3px;
+        font-size: medium !important;
+        margin: 10px;
+    }
+    .navlink-three{
+        text-decoration: none !important;
+        color: rgb(207, 209, 109) !important;
+        background-color: rgb(59, 59, 68);
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        border-radius: 3px;
+        font-size: medium !important;
+        margin: 10px;
+    }
+    .navlink-one:hover{
+        color: rgb(252, 169, 26) !important;
+        transition-delay: 1ms;
+            border-bottom-color: #ffffff;
+            transition-duration: 1ms !important;
+            border-bottom-width: 3px !important;
+    }
+    .navlink-two:hover{
+        color: rgb(252, 169, 26) !important;
+        transition-delay: 1ms;
+            border-bottom-color: #ffffff;
+            transition-duration: 1ms !important;
+            border-bottom-width: 3px !important;
+    }
+    .navlink-three:hover{
+        color: rgb(252, 169, 26) !important;
+        transition-delay: 1ms;
+            border-bottom-color: #ffffff;
+            transition-duration: 1ms !important;
+            border-bottom-width: 3px !important;
+    }
+    
+}
+/* For Mobile  */
+@media only screen and (max-width: 600px) {
+    .header{
+        width: 100%;
+        color: white;
+        top: 0;
+        display: inline;
+        background-color: rgb(187, 131, 131);
+        z-index: 100;
+    }
+    .brand-logo{
+        margin-top: 0;
+        font-size: medium;
+    }
+    .logo{
+        height: 50px;
+        width: 70px;
+        margin: auto;
+        border-radius: 4px;
+    }
+    .brand-name{
+        margin: auto;
+        padding: 20px;
+        font-size: medium;
+        font-family: Verdana, Tahoma, sans-serif;
+        border-bottom-right-radius: 7px;
+        border-bottom-left-radius: 7px;
+        background-color: rgb(255, 230, 0);
+        width: 100%;
+        color: black;
+    }
+    .intro{
+        color: white;
+    }
+    .navbar{
+        float: right;
+        display: inline-flex;
+    }
+    .navlink-one{
+        text-decoration: none !important;
+        color: rgb(207, 209, 109) !important;
+    background-color: rgb(59, 59, 68);
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        border-radius: 3px;
+        font-size: medium !important;
+        margin: 10px;
+    }
+    .navlink-two{
+        text-decoration: none !important;
+        color: rgb(207, 209, 109) !important;
+        background-color: rgb(59, 59, 68);
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        border-radius: 3px;
+        font-size: medium !important;
+        margin: 10px;
+    }
+    .navlink-three{
+        text-decoration: none !important;
+        color: rgb(207, 209, 109) !important;
+        background-color: rgb(59, 59, 68);
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        border-radius: 3px;
+        font-size: medium !important;
+        margin: 10px;
+    }
+    .navlink-one:touch-action{
+        color: rgb(252, 169, 26) !important;
+        transition-delay: 1ms;
+            border-bottom-color: #ffffff;
+            transition-duration: 1ms !important;
+            border-bottom-width: 3px !important;
+    }
+    .navlink-two:touch-action{
+        color: rgb(252, 169, 26) !important;
+        transition-delay: 1ms;
+            border-bottom-color: #ffffff;
+            transition-duration: 1ms !important;
+            border-bottom-width: 3px !important;
+    }
+    .navlink-three:touch-action{
+        color: rgb(252, 169, 26) !important;
+        transition-delay: 1ms;
+            border-bottom-color: #ffffff;
+            transition-duration: 1ms !important;
+            border-bottom-width: 3px !important;
+    }
+    
+}

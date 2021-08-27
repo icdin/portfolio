@@ -1,0 +1,62 @@
+@media only screen and (min-width:600px) {
+    .login-page{
+        margin: 100px !important;
+    }
+    .login-card{
+        background-color: rgb(250, 250, 250);
+        margin-top: 50px !important;
+        width: 40% !important;
+        margin: auto ;
+        
+    }
+    .login-input-card{
+        align-items: center !important;
+        width: 100% !important;
+    }
+    .login-btn{
+        width: 90%;
+    }
+    .forgot-password{
+        margin: 5px;
+        color: rgb(238, 207, 32) !important;
+        font-size: medium;
+
+    }
+    .login-link{
+        color: rgb(238, 207, 32) !important;
+        font-size: small;
+        float: right;
+        margin-bottom: 10px;
+    }
+    .register-link{
+        margin: 5px;
+    }
+    .input{
+        width: 90% !important;
+        padding: 4px;
+        margin: 10px;
+        border-width: 0;
+        border-bottom-width: 1px;
+    }
+    .input:active{
+    border-bottom-color: #007bff;
+    
+    }
+    .input:hover{transition-delay: 0s;
+        border-bottom-color: #007bff;
+        transition-duration: 0s !important;
+        border-bottom-width: 3px !important;
+    }
+    .page-title{
+        text-align: center !important;
+        padding: 10px;
+    }
+    .page-links{
+        font-size: xx-large !important;
+        display: inline-block !important;
+    }
+    .login-eye-group{
+        display: flex;
+        width: 91%;
+    }
+}

@@ -1,0 +1,83 @@
+@media only screen and (min-width:600px) {
+    .login-page{
+        width: 60%;
+        height: 90%;
+        margin: auto;
+        background-color: rgb(59, 59, 68)!important;
+    }
+    .login-card{
+        background-color:  transparent !important;
+        margin-top: 50px !important;
+        width: 40% !important;
+        margin: auto ;
+        
+    }
+    .page-title{
+        text-align: center;
+        background-color: rgb(43, 43, 49);
+        color: white;
+        font-size: medium;
+        padding: 10px;
+        width: 60%;
+        border-radius: 4px;
+        margin: auto;
+    }
+    .login-input-card{
+        align-items: center !important;
+        width: 100% !important;
+        background-color: rgb(59, 59, 68)!important;
+    }
+    .login-btn{
+        width: 90%;
+        padding: 4px;
+        border-radius: 5px;
+        color: white;
+        margin: 7px;
+        background-color: rgb(59, 59, 68)!important;
+    }
+    .forgot-password{
+        margin: 5px;
+        color: rgb(238, 207, 32) !important;
+        font-size: medium;
+
+    }
+    .login-link{
+        color: rgb(238, 207, 32) !important;
+        font-size: small;
+        margin:auto;
+    }
+    .register-link{
+        margin: 5px;
+    }
+    .input{
+        width: 90% !important;
+        padding: 4px;
+        margin: 10px;
+        border-width: 0;
+        border-radius:0;
+        border-bottom-width: 1px;
+        border-bottom-color: rgb(43, 43, 59) !important;
+        background-color:transparent !important;
+    }
+    .input:active{
+    border-bottom-color: rgb(43, 43, 59);
+    
+    }
+    .input:hover{transition-delay: 0s;
+        border-bottom-color: rgb(43, 43, 59);
+        transition-duration: 0s !important;
+        border-bottom-width: 3px !important;
+    }
+    .page-title{
+        text-align: center !important;
+        padding: 10px;
+    }
+    .page-links{
+        font-size: xx-large !important;
+        display: inline-block !important;
+    }
+    .login-eye-group{
+        display: flex;
+        width: 91%;
+    }
+}

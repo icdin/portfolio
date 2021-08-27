@@ -1,0 +1,41 @@
+.header{
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+    width: 100%;
+    position: fixed !important;
+    z-index: 100 !important;
+}
+.navbar{
+    flex-direction: row !important;
+    list-style: none;
+}
+.register{
+    background-color: #007bff;
+    border-color: #007bff;
+    border-radius: 4px;
+    padding: 4px;
+    margin: 5px;
+    width: 90px;
+    height: 35px;
+    color: white;
+    font-size: medium;
+    float: right !important;
+    text-align: center;
+}
+.login{
+    background-color: #007bff;
+        border-color: #007bff; 
+    border-radius: 4px;
+    padding: 4px;
+    margin: 5px;
+    width: 90px;
+    height: 35px;
+    color: white;
+    font-size: medium;
+    float: right !important;
+    text-align: center;
+}
+.navlinks{
+    float: right !important;
+    margin-left: 1200px !important;
+}

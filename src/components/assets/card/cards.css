@@ -1,0 +1,22 @@
+.row{
+    margin: auto !important;
+}
+.container-fluid{
+    margin-top: 180px;
+}
+.cards-list{
+    background-color: transparent;
+    margin: auto;
+    display: inline-flex  !important;
+}
+.projects-title{
+    background-color: rgb(59, 59, 68) !important;
+    border-radius: 4px;
+    margin: auto;
+    height: 50px;
+    width: 89%;
+}
+.container{
+    display: inline-block !important;
+    background-color: rgb(59, 59, 68) !important;
+}

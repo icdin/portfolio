@@ -1,0 +1,49 @@
+.card-item{
+    background-color: rgb(43, 43, 49)!important;
+    color: rgb(255, 255, 255);
+    width: 330px;
+    height: 330px;
+    border-radius: 5px;
+    margin: 5px;
+    display: inline-block;   
+}
+.thumbnail{
+    padding: 5px;
+    height: 250px;
+    width: 310px;
+}
+.thumbnail:hover{
+    transform: scale(1.08);
+    transition-duration: 600ms;
+}
+.detail{
+width: 310px;
+height: 100px;
+margin: auto;
+border-bottom-left-radius: 6px;
+border-bottom-right-radius: 6px;
+color: rgb(255, 255, 255);
+background-color: transparent;
+}
+.name{
+text-align: center;
+font-size: medium;
+color: rgb(197, 186, 184);
+}
+.description{
+text-align: center;
+font-size: small;
+}
+.link{
+    text-align: center;
+    font-size: medium;
+   
+}
+.link-icon{
+    height: 12px !important;
+    width: 12px !important;
+}
+a{
+    text-decoration: none;
+    color: rgb(146, 144, 129) !important;
+}

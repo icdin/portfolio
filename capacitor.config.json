@@ -1,0 +1,8 @@
+{
+    "appId":"io.ionic.mmb",
+    "appName":"mmb",
+    "bundleWebRuntime":false,
+    "npmClient":"npm",
+    "wedDir":"build",
+    "cordova":{}
+}

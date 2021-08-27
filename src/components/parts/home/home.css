@@ -1,0 +1,109 @@
+/* For PC */
+@media only screen and (min-width:600px){
+    .home{
+        margin-top: 300px;
+    }
+    .content{
+        justify-content: center;
+    }
+    .links{
+        display: inline-flex;
+        margin: 20px;
+    
+    }
+    .link-one{
+        margin: 20px;
+        color: rgb(255, 255, 255) !important;
+        width: 140px;
+        height: 30px;
+        text-decoration: none;
+        border-radius: 4px;
+        font-size: medium;
+        background-color: rgb(59, 59, 68);
+    }
+    .link-one:hover{
+        color: rgb(231, 219, 219);
+        text-decoration: none;
+        font-size: small;
+        border-width: thick;
+        padding: 1px;
+        border-radius: 4px;
+        border-bottom-color: white;
+        background-color: rgb(59, 59, 68);
+    }
+    .link-two{
+        margin: 20px;
+        color: rgb(255, 255, 255) !important;
+        width: 140px;
+        height: 30px;
+        text-decoration: none;
+        font-size: large;
+        border-radius: 4px;
+        background: rgb(255, 153, 0) !important;
+    }
+    .link-two:hover{
+        color: rgb(41, 38, 38);
+        text-decoration: none;
+        font-size: large;
+        border-width: thick;
+        padding: 1px;
+        border-bottom-color: rgb(223, 206, 206);
+        border-radius: 4px;
+        background: rgb(214, 144, 39) !important;
+    }
+}
+
+
+/* For Mobile */
+@media only screen and (max-width:600px){
+    .home{
+        margin:auto;
+    }
+    .content{
+        justify-content: center;
+    }
+    .links{
+        margin: 4px;
+        display: list-item;
+        list-style: none;
+    
+    }
+    .link-one{
+        margin: auto;
+        color: rgb(255, 255, 255) !important;
+        height: 30px;
+        text-decoration: none;
+        border-radius: 4px;
+        font-size: medium;
+        background-color: rgb(59, 59, 68);
+    }
+    .link-one:touch-action{
+        color: rgb(231, 219, 219);
+        text-decoration: none;
+        font-size: small;
+        border-width: thick;
+        padding: 1px;
+        border-radius: 4px;
+        border-bottom-color: white;
+        background-color: rgb(59, 59, 68);
+    }
+    .link-two{
+        margin: auto;
+        color: rgb(255, 255, 255) !important;
+        height: 30px;
+        text-decoration: none;
+        font-size: large;
+        border-radius: 4px;
+        background: rgb(255, 153, 0) !important;
+    }
+    .link-two:touch-action{
+        color: rgb(41, 38, 38);
+        text-decoration: none;
+        font-size: large;
+        border-width: thick;
+        padding: 1px;
+        border-bottom-color: rgb(223, 206, 206);
+        border-radius: 4px;
+        background: rgb(214, 144, 39) !important;
+    }
+}
