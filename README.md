@@ -1,2 +1,2 @@
 # portfolio
-This is my portfolio, check out my recent projects here.
+This is my portfolio, check out my recent projects here https://brave-normakoh.netlify.app
